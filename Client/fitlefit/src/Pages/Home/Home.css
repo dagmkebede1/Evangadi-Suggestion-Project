@@ -1,0 +1,63 @@
+.home_akafi{
+    height: 150vh;
+    background-size:contain;
+    margin: 3rem auto;
+background: rgba( 255, 255, 255, 0.35 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 6.5px );
+-webkit-backdrop-filter: blur( 6.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+overflow: hidden;
+}
+
+.button1,.button2,.button3{
+    display: block;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    height: 4rem;
+    padding: 1rem;
+    font-family: 'Rubik Marker Hatch', cursive;
+}
+
+.btn:hover{
+    color: #fe8402;
+    border: 2px #007bff solid ;
+}
+
+.sideNote2 {
+	width: 600px;
+}
+.forTitle {
+	font-size: 25px;
+	font-family: Lato, sans-serif;
+	color: #fe8303;
+    font-weight: bold;
+    padding-left: 3rem;
+}
+.sideNote2 p{
+    text-align: justify;
+}
+.btn1 {
+    display: block;
+    padding: .5rem;
+	width: 200px;
+	height: 41px;
+	background-color: #fe8303;
+	color: white;
+	border: solid 2px #007bff ;
+	border-radius: 4px;
+	font-weight: 400px;
+	text-align: center;
+	font-size: 1rem;
+	margin-left: 10px;
+    text-decoration: none;
+ font-family:Arial, Helvetica, sans-serif;
+}
+.shortText{
+    width: 21.8rem;
+}

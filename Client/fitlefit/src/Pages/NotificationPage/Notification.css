@@ -1,0 +1,65 @@
+.notificationAkafi{
+    height: 300vh;
+}
+textarea{
+    display: block !important;
+    margin: 10%;
+    width: 50%;
+}
+.notificationSubmit{
+    background-color:#007bff ;
+    border-radius: 5px;
+    margin: 0.5rem;
+    width: 15rem;
+    border: #fe8402 solid 2px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20%;
+}
+.notificationSubmit:hover{
+    background-color: #fe8402;
+    border: #007bff solid 2px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.thankYouAnch{
+    display: block;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20%;
+ }
+ .thankYou{
+     margin-top: 10%;
+    text-align: center;
+ }
+ 
+ .forSuccessPage{
+   height: 100vh;
+ }
+ .border{
+    background-color: #fe8402;
+ }
+ .toHide{
+    display: none;
+ }
+ .toShow{
+    display: block;
+ }
+ .hide{
+    display: none;
+ }
+ .show{
+    display: block;
+ }
+ a{
+   color: black;
+   text-align: center;
+   text-decoration: none;
+   padding-top: 2%;
+ }
+ a:hover{
+   color: black;
+ }

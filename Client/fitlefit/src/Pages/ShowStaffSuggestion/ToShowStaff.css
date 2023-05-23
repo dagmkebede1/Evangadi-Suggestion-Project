@@ -1,0 +1,67 @@
+.toShowStaffForward{
+    height: 100vh;
+}
+.TitleFromStaff{
+    text-align: center;
+    text-decoration: underline;
+}
+.stafContain{
+    display: flex;
+    justify-content: space-around;
+}
+.backToHome{
+    display: block;
+    width: 155px;
+    height: 33px;
+    background-color: #fe8303;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    margin-left: 2%;
+}
+.backToHome:hover{
+    background-color:#516CF0 ;
+    color:white ;
+    margin-left: 1%;
+}
+.headerStyling{
+    text-decoration: underline;
+}
+.passedImage{
+    width: 30px;
+    transition: transform .2s;
+}
+
+.passedImage:hover{
+  transform: scale(10) translateX(-30%) translateY(30%);
+  border-radius: 5PX;
+  transform: rotateX('angle');
+  transform: rotateY('10');
+}
+
+.undone{
+    background-color:#DC143C;
+}
+.done{
+    background-color: green;
+}
+.btn_toShowStaff{
+    width:200px ;
+    height: 41px;
+    background-color: #516CF0;
+    color: white;
+    border: none;
+    border-radius:4px ;
+    font-weight: 400px;
+    text-align: center;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    display: inline;
+}
+.btn_toShowStaff:hover{
+    background-color: #FF8500;
+}
+.btn_toShowStaff:active{
+    border:3px solid #516cf0;
+}

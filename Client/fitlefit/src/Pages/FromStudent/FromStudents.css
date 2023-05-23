@@ -1,0 +1,111 @@
+.phaseThree{
+    background-color: orange;
+}
+.phaseTwo{
+    background-color: tomato;
+}
+.phaseOne{
+    background-color: yellowgreen;
+}
+.phaseFour{
+    background-color: yellow;
+}
+
+.staffAkafiMother{
+    height: 100vh;
+}
+.staffAkafi{
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6.5px );
+    -webkit-backdrop-filter: blur( 6.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    text-align: center;
+    height: 100vh;
+    margin: auto;
+  };
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.name_section{
+    border-radius: 5px;
+    width: 15rem;
+    height: 1.5rem;
+    text-align: center;
+    margin: 0.5rem;
+}
+textarea{
+    resize: none;
+    border-radius: 5px;
+    width: 40vw;
+    height: 30vh;
+}
+
+input[type]{
+    display: none;
+}
+
+.label{
+    display: block;
+    width: 12rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    height: 2rem;
+    margin: 0.5rem auto;
+    font-family: 'Rubik Marker Hatch', cursive;
+}
+
+.label:hover{
+    color: #fe8402;
+    border: 2px #007bff solid ;
+}
+.btnStaff{
+    background-color:#007bff ;
+    border-radius: 5px;
+    margin: 0.5rem;
+    width: 15rem;
+    border: #fe8402 solid 2px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.btnStaff:click{
+    background-color: #fe8402;
+    border: #007bff solid 2px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.anchoreForHome{
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.titles{
+    font-weight: bold;
+   text-decoration: underline;
+};
+
+
+.thankYouAnch{
+    display: block;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20%;
+ }
+ .thankYou{
+     margin-top: 10%;
+    text-align: center;
+ 
+ }
+ 
+ .forSuccessPage{
+   height: 100vh;
+ }

@@ -1,0 +1,21 @@
+.display_body{
+    height: 100vh;
+}
+
+.showss{
+    margin-top: 15rem;
+    display: block;
+    width: 22rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    height: 4rem;
+    padding: 1rem;
+    font-family: 'Rubik Marker Hatch', cursive;
+}
+
+.showss a{
+    text-decoration: none;
+}
+

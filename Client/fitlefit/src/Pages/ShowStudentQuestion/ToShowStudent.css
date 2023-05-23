@@ -1,0 +1,47 @@
+.stuConten{
+    display: flex;
+    justify-content: space-evenly;
+}
+.studentAkafiOne{
+    height: 100vh;
+}
+.backToHome{
+    display: block;
+    width: 155px;
+    height: 33px;
+    background-color: #fe8303;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    margin-left: 2%;
+}
+.backToHome:hover{
+    background-color:#516CF0 ;
+    color:white ;
+    margin-left: 1%;
+}
+.headerStyling{
+   text-decoration: underline;
+}
+.TitleFromStaff{
+    text-align: center;
+    text-decoration: underline;
+}
+.background{
+    background-color: black;
+}
+.border{
+    background-color: white;
+}
+.passedImage{
+    width: 30px;
+    transition: transform .2s;
+}
+
+.passedImage:hover{
+  transform: scale(10) translateX(-30%) translateY(30%);
+  border-radius: 5PX;
+  transform: rotateX('angle');
+  transform: rotateY('10');
+}

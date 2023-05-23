@@ -1,0 +1,64 @@
+🧠 revision content overview 🧠
+-------------------------------
+🖥️ section one(7-10min max)
+❓ short explanation on what:
+            ⭐ node is ,
+                 🌟 Node.js is an open-source, cross-platform, 
+                    back-end JavaScript runtime environment 
+                    that runs on the V8 engine and executes
+                    JavaScript code outside a web browser. 
+            ⭐  event queue ?
+                      🌟It pushes events onto the call stack, also built in, as they occur.
+            ⭐ single and multi thread?  
+                      🌟Node.js runs JavaScript code in a single thread, which means that your code can only do one task at  a time. However, Node.js itself is multithreaded and provides hidden threads through the libuv  library, which handles I/O operations like reading files from a disk or network requests. 
+            ⭐ type of node module : 👉core module , 👉 contributed module , 👉 custom module
+ --------------------------------           
+🖥️ section two(10min max)
+        ❓ short explanation on file organization and gitBash
+---------------------------------
+🖥️ section three(1 - 1:30  max)
+        ❓ simple CRUD(create,read,update,and delete) project  on user user Registration
+        ✅ part one: create Database ( ✴️what is database, ✴️why database, ✴️type of database) 
+                    ➡️ database-name:userData
+                    ➡️ user-name : user-one
+                    ➡️ password : user-one@1234
+                       💰 points to focus on : how to create and delete database 
+                                               how to create and delete user
+                                               how to give privileges globally or particularly 
+               🤲 additional point : how to use extensions for database.
+        ✅ part two : create table under schema directory
+                      ➡️table-name : user_rage
+                      ➡️content of the table : user_name , email and password
+                        💰 points to focus on : how to right SQL command for creating table
+                                              what primary key and foreign key is and attributes
+
+        ✅ part three : prepare backend control and routes 
+                        💰 points to focus on : how to create request and response 
+                                              what are the different methods  for creating,updating,insert,and delete.
+                                              how to export those methods and link with the prepared routs and main app
+                                              how to test your API using postman or Thunder client
+        ✅ part four : preparing the frontend 
+                      💰 points to focus : prepare form
+                                           how to set the proper methods to the appropriate form 
+                                           how to use react route 
+                                     
+        🔀 part five : additional concepts 
+                       💰 points to cover : how to handel input data before directly sending to database 
+                                            how to handel and authenticate at front before sending to database 
+                                            how to run both front and backend together ( optional to use , not mandatory ) 
+                                            ⭐how to deploy react app (step illustration no demo)
+                                            ⭐how to deploy  database (step illustration no demo)
+                                            ⭐how to deploy backend (step illustration no demo)
+---------------------------------------------------
+ 🥅 your Next steps should be 🥅 
+        👉how to validate your form before sending to database at front also through backend
+        👉how to hash your password and add salt to your password 
+        👉authentication 
+        👉how to switch between login and logout page along with sending notification for already registered user
+        👉how to persist a login/logout for user 
+        👉how to use sequelize or mongoose 
+---------------------------------------------------
+🥇 useful resources
+          https://www.youtube.com/watch?v=In0nB0ABaUk
+          https://www.youtube.com/watch?v=-RCnNyD0L-s
+          https://www.youtube.com/watch?v=mbsmsi7l3r4&t=43s
